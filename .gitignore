@@ -12,3 +12,6 @@ pixel_cam_config.json
 # adb keys
 adbkey
 adbkey.pub
+
+# Startup error log
+pixel_cam_error.log

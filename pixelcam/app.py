@@ -679,6 +679,11 @@ class SettingsDialog:
 
 def main():
     root = tk.Tk()
+
+    def report(exc, val, tb):  # errors inside buttons/timers would otherwise be invisible in a .pyw
+        import traceback
+        messagebox.showerror(APP_NAME, "".join(traceback.format_exception(exc, val, tb))[-1500:])
+    root.report_callback_exception = report
     try:
         ttk.Style().theme_use("vista")
     except Exception:
