@@ -1,0 +1,6 @@
+# Optional: only needed for "Send to Meet / Zoom" (virtual camera).
+# The rest of the app uses only the Python standard library.
+pyvirtualcam>=0.15
+windows-capture>=2.0
+opencv-python
+numpy

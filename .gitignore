@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Personal settings and recordings never belong in the repo
+config.json
+pixel_cam_config.json
+*.mp4
+*.mkv
+
+# adb keys
+adbkey
+adbkey.pub
