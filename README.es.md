@@ -4,6 +4,8 @@
 
 [English](README.md) · [Guía de rescate con la pantalla rota](docs/rescue-guide.es.md)
 
+<p align="center"><img src="docs/screenshot.png" alt="Pixel Cam" width="417"></p>
+
 Pixel Cam es una pequeña app para Windows construida sobre [scrcpy](https://github.com/Genymobile/scrcpy). Nació para rescatar un Google Pixel 8 Pro al que se le murió la pantalla: el teléfono funciona y sus cámaras son excelentes, pero no se puede ver ni tocar nada en él. Pixel Cam permite elegir lente, zoom, rotación y calidad desde el PC, grabar vídeo y enviar la imagen a Meet, Zoom o cualquier app que acepte una webcam.
 
 ## Funciones
